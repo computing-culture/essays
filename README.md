@@ -2,7 +2,7 @@
 
 Essays on computing history and user experience
 
-- [There Is No Such Thing as an Era-Pure Home Gaming PC](era-pure-pc.md)
+- [There Is No Such Thing as an Era-Pure Home Gaming PC](era-pure home gaming pc.md)
 
 ## License
 
