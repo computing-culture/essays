@@ -4,7 +4,7 @@ Essays on computing history and user experience. I am basically saying that old 
 
 - [Interaction Under Constraint: Retro Systems as Evidence in Human–Computer Interaction](three-pillars.md)
 - [Worked Example: Unreal (1998)](unreal-1998.md)
-- [There Is No Such Thing as an Era-Pure Home Gaming PC](era-pure-pc.md)
+- [There Is No Such Thing as an "Era-Pure" Home Gaming PC](era-pure-pc.md)
 - [Table: DirectX / VPU and GPU Compiled Reference](cards-in-lab.md)
 - [Table: DirectX / OS Compiled Reference](dx-os-reference-table.md)
 
