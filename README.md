@@ -1,7 +1,8 @@
 # Essays
 
-Essays on computing history and user experience
+Essays on computing history and user experience. I am basically saying that old games were designed around specific hardware and human habits, and when you change those, the game changes - regardless of whether it technically executes.
 
+- [Interaction Under Constraint: Retro Systems as Evidence in Human–Computer Interaction](three-pillars.md)
 - [There Is No Such Thing as an Era-Pure Home Gaming PC](era-pure-pc.md)
 - [DirectX reference table for common GPUs](cards-in-lab.md)
 - [DirectX reference table for common OSs](dx-os-reference-table.md)
