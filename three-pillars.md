@@ -1,4 +1,4 @@
-## Thesis: Why Retro Matters in HCI
+## Interaction Under Constraint: Retro Systems as Evidence in Human–Computer Interaction
 
 Retro matters because it helps us ask an important question in Human–Computer Interaction:
 
@@ -48,3 +48,9 @@ Taken together, these three concerns lead naturally to a reconstruction structur
 6. Did this type of system remain usable and maintained long enough to matter?
 
 This structure is not meant to chase perfect accuracy or nostalgia. Its purpose is to rebuild software around the human skills and media conditions it expected, and to use past systems as evidence for how different interaction styles emerge, stabilize, and fade over time.
+
+## Citation
+
+Computing Culture. *Interaction Under Constraint: Retro Systems as Evidence in Human–Computer Interaction*.  
+Computing Culture Essays, 2026.  
+https://github.com/computing-culture/essays
