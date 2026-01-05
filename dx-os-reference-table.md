@@ -19,3 +19,9 @@
 | Windows 10 / 11                |  ◐  |  ◐  |  ◐  |  ◐  |  ◐  |  ●  |   ●  |   ●  |   ●  |
 
 DirectX 1/2/4 were not widely adopted.
+
+## Citation
+
+Computing Culture. *Table: DirectX / OS Compiled Reference*.  
+Computing Culture Essays, 2026.  
+https://github.com/computing-culture/essays
