@@ -1,12 +1,18 @@
+● Original DirectX runtime can be installed on this OS
+◐ Software targeting DirectX version executes with newer DirectX runtime
+○ Not available at all
+
 | Operating System ↓ / DirectX → | DX3 | DX5 | DX6 | DX7 | DX8 | DX9 | DX10 | DX11 | DX12 |
 | ------------------------------ | :-: | :-: | :-: | :-: | :-: | :-: | :--: | :--: | :--: |
 | Windows 1/2/3/NT3.1            |  ○  |  ○  |  ○  |  ○  |  ○  |  ○  |   ○  |   ○  |   ○  |
 | Windows 95                     |  ●  |  ●  |  ●  |  ●  |  ○  |  ○  |   ○  |   ○  |   ○  |
 | Windows 98                     |  ●  |  ●  |  ●  |  ●  |  ●  |  ○  |   ○  |   ○  |   ○  |
-| Windows ME                     |  ○  |  ○  |  ●  |  ●  |  ●  |  ●  |   ○  |   ○  |   ○  |
+| Windows ME                     |  ◐  |  ◐  |  ●  |  ●  |  ●  |  ●  |   ○  |   ○  |   ○  |
 | Windows NT 4.0                 |  ●  |  ●  |  ●  |  ○  |  ○  |  ○  |   ○  |   ○  |   ○  |
-| Windows 2000                   |  ○  |  ○  |  ●  |  ●  |  ●  |  ●  |   ○  |   ○  |   ○  |
-| Windows XP                     |  ○  |  ○  |  ○  |  ●  |  ●  |  ●  |   ○  |   ○  |   ○  |
-| Windows Vista                  |  ○  |  ○  |  ○  |  ○  |  ○  |  ●  |   ●  |   ◐  |   ○  |
-| Windows 7 / 8                  |  ○  |  ○  |  ○  |  ○  |  ○  |  ●  |   ●  |   ●  |   ○  |
-| Windows 10 / 11                |  ○  |  ○  |  ○  |  ○  |  ○  |  ●  |   ●  |   ●  |   ●  |
+| Windows 2000                   |  ◐  |  ◐  |  ●  |  ●  |  ●  |  ●  |   ○  |   ○  |   ○  |
+| Windows XP                     |  ◐  |  ◐  |  ◐  |  ●  |  ●  |  ●  |   ○  |   ○  |   ○  |
+| Windows Vista                  |  ◐  |  ◐  |  ◐  |  ◐  |  ◐  |  ●  |   ●  |   ◐  |   ○  |
+| Windows 7 / 8                  |  ◐  |  ◐  |  ◐  |  ◐  |  ◐  |  ●  |   ●  |   ●  |   ○  |
+| Windows 10 / 11                |  ◐  |  ◐  |  ◐  |  ◐  |  ◐  |  ●  |   ●  |   ●  |   ●  |
+
+DirectX 1/2/4 were not widely adopted.
