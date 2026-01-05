@@ -1,8 +1,8 @@
 ● Original DirectX runtime can be installed on this OS
 
-◐ Software targeting DirectX version executes with newer DirectX runtime
+◐ Software targeting DirectX version can be orchestrated through newer runtimes
 
-○ Not available at all
+○ Not available on this OS
 
 
 | Operating System ↓ / DirectX → | DX3 | DX5 | DX6 | DX7 | DX8 | DX9 | DX10 | DX11 | DX12 |
