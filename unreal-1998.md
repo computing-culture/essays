@@ -87,3 +87,9 @@ Unreal launched in 1998 and was displaced in first-person multiplayer shooters b
 This longevity meant that the interaction style Unreal assumed had time to be learned, practiced, and remembered irrespective of CPU, RAM and disk drives - these components have not emerged as primary constraints because they are not directly shaping player behaviour or interaction style.
 
 Later computers can still honour Unreal’s intended interactions if they preserve PS/2 ball-mouse inertial input, 4:3 analogue display characteristics, and frame-coupled spatial audio, even when CPU and RAM capacities far exceed original expectations.
+
+## Citation
+
+Computing Culture. *Worked Example: Unreal (1998)*.  
+Computing Culture Essays, 2026.  
+https://github.com/computing-culture/essays
