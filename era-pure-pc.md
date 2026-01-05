@@ -10,8 +10,6 @@ Likewise, many retro PC fans imagine a computer as a frozen moment in time where
 
 My home PC was frequently reconfigured by being patched, upgraded, and adapted to my ever changing desires.
 
----
-
 ## How Home PC Computers Were Sold
 
 Most companies that sold PCs wanted two things:
@@ -27,8 +25,6 @@ Because of this, they usually chose the **cheapest graphics card that worked at 
 
 These cards were good enough for Windows and basic games. They are found in computers were built to run what was shown in the shop, not games that would be released a year later.
 
----
-
 ## How Consumers  Used Their PCs
 
 Most buyers did not plan to upgrade their computer right away. If they knew they needed better hardware on day one, they would have bought a different machine.
@@ -43,8 +39,6 @@ What usually happened was:
 
 Upgrades happened because of **new needs**, not because people thought they could build a perfect future‑proof machine.
 
----
-
 ## Real Upgrade Examples
 
 Reality meant many home computers lived through more than one hardware generation:
@@ -55,8 +49,6 @@ Reality meant many home computers lived through more than one hardware generatio
 
 Today these combinations may look strange or unbalanced, but at the time they were normal. The graphics card was usually the first thing to change, and it may have changed more than once.
 
----
-
 ## Reviews Supported Upgrading
 
 Old computer magazines often described new graphics cards as:
@@ -64,8 +56,6 @@ Old computer magazines often described new graphics cards as:
 > “An upgrade for your existing PC.”
 
 They expected readers to keep most of their system and only replace what was necessary.
-
----
 
 ## Mixed Hardware Was Normal
 
@@ -75,8 +65,6 @@ Most people did not plan to build a PC with a slower 3D card plus a faster one.�
 * Vérité + Voodoo2
 
 But these combinations were common because users added 3D accelerators after they needed them. Once that happened, the PC no longer fit into a single era.
-
----
 
 ## Different Kinds of Historically Correct Computers
 
@@ -103,8 +91,6 @@ There is more than one way for a computer to be historically accurate.
 * Changes driven by company rules (that typically banned games)
 * Shows how people used computers at work
 
----
-
 ## Strict Builds as Research Tools
 
 Some people like to build computers with strict rules, using only parts from a certain time and place. Those builds are useful for:
@@ -113,8 +99,6 @@ Some people like to build computers with strict rules, using only parts from a c
 * Appraising computer vendors 
 
 They mirror a possible  configuration, but home computers rarely  stayed in one configuration.
-
----
 
 ## Software Was Often Broken
 
@@ -138,8 +122,12 @@ Instead of one perfect moment, a computer moves through different states:
 
 Each state is real and historically valid.
 
----
-
 ## Conclusion
 
 Home Gaming Computers were never frozen in time when they left the factory. Treating them as if they were is a  misunderstanding of what they were designed to do.
+
+## Citation
+
+Computing Culture. *There Is No Such Thing as an “Era-Pure” Home Gaming PC*.  
+Computing Culture Essays, 2026.  
+https://github.com/computing-culture/essays
