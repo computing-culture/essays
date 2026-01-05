@@ -85,3 +85,5 @@ The HCI that Unreal was optimised for existed for almost a decade (1990-2000).
 Unreal launched in 1998 and was displaced in first-person multiplayer shooters by Unreal Tournament in 1999. But as single-player game Unreal remained culturally present through the transition to LCD displays, hardware T&L GPUs, and optical mice. The shared Unreal Engine was reused and expanded in many later games.
 
 This longevity meant that the interaction style Unreal assumed had time to be learned, practiced, and remembered irrespective of CPU, RAM and disk drives - these components have not emerged as primary constraints because they are not directly shaping player behaviour or interaction style.
+
+Later computers can be assembled to honour Unreal’s intended interactions if they preserves PS/2 ball-mouse inertial input, 4:3 analogue display characteristics, and frame-coupled spatial audio, even when CPU and RAM capacities far exceed original expectations.
