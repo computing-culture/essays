@@ -3,6 +3,7 @@
 Essays on computing history and user experience
 
 - [There Is No Such Thing as an Era-Pure Home Gaming PC](era-pure-pc.md)
+- [DirectX reference table for common GPUs](cards-in-lab.md)
 
 ## License
 
