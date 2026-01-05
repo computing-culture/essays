@@ -68,15 +68,15 @@ The next most efficient code path would be DX5 drivers on DX5 runtime, which is 
 
 ### 6. Did Such A Machine Exist?
 
-Unreal was rarely bundled with complete OEM PCs, but was commonly used as a showcase title in 3Dfx graphics card bundles. This positioned Unreal as the test of a 3Dfx system’s interaction and media capabilities.
+Unreal was rarely bundled with complete OEM PCs, but was commonly used as a showcase title in 3Dfx graphics card bundles. This positioned Unreal as the demonstrator of 3Dfx's interactive media capabilities.
 
 Plausible lower end 1998 gamer configuration: 3Dfx Voodoo 4Mb (analog out), Microsoft Intellimouse, 15" CRT (640x480x16 analog in), Ensoniq AudioPCI. This configuration was buildable, usable, and matched Unreal’s target audience.
 
 Plausible upper end 1998 gamer configuration: 3Dfx Banshee 16Mb (analog out), Microsoft Intellimouse, 17" CRT (800x600x16 analog in), Aureal Vortex. This configuration was buildable, usable, and matched Unreal’s target audience.
 
-Plausible alternative DirectX configuration: TNT 16Mb (analog out), Microsoft Intellimouse, 12" LCD (800x600x32 analog in), Aureal Vortex. This configuration was less common but doable.
+Plausible alternative Direct3D configuration: TNT 16Mb (analog out), Microsoft Intellimouse, 12" LCD (800x600x32 analog in), Aureal Vortex. This configuration was less common but doable.
 
-And, these system-level constraints expose a truth of 1998: The best Direct3D cards lacked bandwidth to properly drive 1024x768x32 on a 14" LCD, which also explains why Unreal more often appeared at 800x600x16 on 15" CRT.
+And, these system-level constraints expose a truth of 1998 and Unreal's launch environment: The most powerful Direct3D cards lacked bandwidth to properly drive 1024x768x32 on a 14" LCD, which cements why Unreal more often appeared at 800x600x16 on 15" CRT.
 
 ### 7. Did It Last Long Enough to Matter?
 
