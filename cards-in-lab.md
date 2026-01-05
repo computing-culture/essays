@@ -26,3 +26,9 @@
 | Radeon 9700 Pro           | DX9                 | ●   | ●   | ●   | ●   | ●   | ●   |
 | Radeon X1650              | DX9                 | ●   | ●   | ●   | ●   | ●   | ●   |
 | Radeon HD 3650            | DX9                 | ●   | ●   | ●   | ●   | ●   | ●   |
+
+## Citation
+
+Computing Culture. *Table: DirectX / VPU and GPU Compiled Reference*.  
+Computing Culture Essays, 2026.  
+https://github.com/computing-culture/essays
