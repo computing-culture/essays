@@ -1,5 +1,9 @@
 ## DirectX Coverage with Earliest Supported Runtime
 
+● Native: VPU/GPU drivers target this DX version *and* VPU/GPU accelerates DX features in hardware
+◐ Compatible: VPU/GPU drivers instantiate software orchestration or software emulation
+○ Incompatible
+
 | Card                      | Earliest DX install | DX3 | DX5 | DX6 | DX7 | DX8 | DX9 |
 | ------------------------- | ------------------- | --- | --- | --- | --- | --- | --- |
 | S3 ViRGE                  | DX1                 | ●   | ○   | ○   | ○   | ○   | ○   |
@@ -26,6 +30,9 @@
 | Radeon 9700 Pro           | DX9                 | ◐   | ◐   | ◐   | ◐   | ◐   | ●   |
 | Radeon X1650              | DX9                 | ◐   | ◐   | ◐   | ◐   | ◐   | ●   |
 | Radeon HD 3650            | DX9                 | ◐   | ◐   | ◐   | ◐   | ◐   | ●   |
+
+Note1: Some cards are technically exceptional for having multiple driver sets each targeting different DX versions 
+Note2: Some cards are anomalies in only targeting DX versions that they do fully implement in hardware
 
 ## Citation
 
