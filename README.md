@@ -6,7 +6,7 @@ Essays on computing history and user experience. I am basically saying that old 
 - [Worked Example: Unreal (1998)](unreal-1998.md)
 - [Worked Example: Motorhead (1998)](motorhead-1998.md)
 - [There Is No Such Thing as an "Era-Pure" Home Gaming PC](era-pure-pc.md)
-- [Proposal:](proposal.md)
+- [Why games fade, and how to restore them](proposal.md)
 - [Table: DirectX / VPU and GPU Compiled Reference](cards-in-lab.md)
 - [Table: DirectX / OS Compiled Reference](dx-os-reference-table.md)
 
@@ -21,3 +21,9 @@ You may link to and quote from these essays with attribution.
 Redistribution, modification, or commercial use requires permission.
 
 For further permissions or inquiries, please open an issue in this repository.
+
+## Citation
+
+Computing Culture. 
+Computing Culture Essays, January 2026.
+https://github.com/computing-culture/essays
