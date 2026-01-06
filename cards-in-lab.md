@@ -1,7 +1,7 @@
 ## DirectX Coverage with Earliest Supported Runtime
 
 ● Native: VPU/GPU drivers target this DX version *and* VPU/GPU accelerates DX features in hardware  
-◐ Compatible: VPU/GPU drivers instantiate software orchestration or software emulation  
+◐ Compatible: VPU/GPU drivers instantiate software orchestration (common) or software emulation (uncommon)
 ○ Incompatible  
 
 | Card                      | Earliest DX install | DX3 | DX5 | DX6 | DX7 | DX8 | DX9 |
