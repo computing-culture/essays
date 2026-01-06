@@ -31,8 +31,8 @@
 | Radeon X1650              | DX9                 | ◐   | ◐   | ◐   | ◐   | ◐   | ●   |
 | Radeon HD 3650            | DX9                 | ◐   | ◐   | ◐   | ◐   | ◐   | ●   |
 
-Note1: Some cards are technically exceptional for having multiple driver sets each targeting different DX versions  
-Note2: Some cards are anomalies in only targeting DX versions that they do fully implement in hardware
+Note1: Some cards are technically exceptional for having multiple driver sets targeting different DX versions  
+Note2: Some cards do not target a DX version that they fully implement in hardware
 
 ## Citation
 
