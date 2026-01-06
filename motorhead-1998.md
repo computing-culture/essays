@@ -149,5 +149,5 @@ Understanding or preserving *Motorhead* therefore requires attention not only to
 ## Citation
 
 Computing Culture. *Worked Example: Motorhead (1998)*.  
-Computing Culture Essays, 2026.  
+Computing Culture Essays, January 2026. 
 https://github.com/computing-culture/essays
