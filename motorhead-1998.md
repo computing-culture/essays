@@ -144,3 +144,10 @@ As a result, different computers came to produce meaningfully different versions
 *Motorhead* demonstrates that historically meaningful PC gaming often existed **after factory configurations required tuning**, and **before factory configurations made optimisation trivial**. There was a narrow window in which hardware tuning was difficult enough to matter, yet not so easy that it dissolved the game’s interaction model.
 
 Understanding or preserving *Motorhead* therefore requires attention not only to whether the software runs, but to the historically situated performance envelopes within which its interaction model was formed and sustained.
+
+
+## Citation
+
+Computing Culture. *Worked Example: Motorhead (1998)*.  
+Computing Culture Essays, 2026.  
+https://github.com/computing-culture/essays
