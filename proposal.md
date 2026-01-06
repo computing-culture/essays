@@ -2,15 +2,11 @@
 
 ## Formats, constraints, and fair play: an analogy between tabletop games and PC games
 
-### Core idea
-
 Many tabletop games and PC games rely on formats: shared constraints that define what counts as fair, meaningful, and comparable play.
 
 In tabletop games, formats are usually explicit. They are written into rules, tournament structures, or allowed component sets. In PC games, formats are often implicit. They emerge from hardware limits, performance envelopes, and the difficulty of optimisation rather than from formal rules.
 
 This essay proposes that when these implicit constraints disappear, a PC game does not merely become easier or faster. It becomes a different game.
-
----
 
 ## 1. What is a format in tabletop games?
 
@@ -30,8 +26,6 @@ Examples include:
 
 Crucially, formats are not about restricting creativity. They are about preserving meaning. Without shared limits, outcomes cannot be compared, and mastery loses its shape.
 
----
-
 ## 2. What formats do in practice
 
 Formats serve several practical functions:
@@ -42,8 +36,6 @@ Formats serve several practical functions:
 * They support long-term communities by stabilising expectations
 
 Breaking a format is not the same as playing better. It is changing the conditions under which the game operates. Once that happens, results no longer carry the same meaning.
-
----
 
 ## 3. PC games also have formats, but they are implicit
 
@@ -63,8 +55,6 @@ As a result, PC game formats emerge socially:
 * through shared hardware availability
 * through tuning difficulty
 * through community norms about what is reasonable or fair
-
----
 
 ## 4. Tuning as part of the format, not cheating
 
@@ -137,8 +127,6 @@ This perspective has several important implications:
 
 Freezing a hardware configuration captures a product. Preserving a format captures a practice.
 
----
-
 ## 7. Restoring games as constraint stacks
 
 If formats explain why games fade, restoration requires a practical way to reintroduce those formats.
@@ -172,3 +160,9 @@ PC games fade not because they stop running, but because the constraints that on
 Restoring them therefore requires more than compatibility. It requires rebuilding the constraint stacks that once bounded optimisation, made tuning matter, and allowed skill to be compared.
 
 Formats, not specifications, are what make play fair and memorable.
+
+## Citation
+
+Computing Culture. *Why Games Fade, and How to Restore Them*.  
+Computing Culture Essays, January 2026.  
+https://github.com/computing-culture/essays
