@@ -52,5 +52,5 @@ This structure is not meant to chase perfect accuracy or nostalgia. Its purpose 
 ## Citation
 
 Computing Culture. *Interaction Under Constraint: Retro Systems as Evidence in Human–Computer Interaction*.  
-Computing Culture Essays, 2026.  
+Computing Culture Essays, January 2026.
 https://github.com/computing-culture/essays
