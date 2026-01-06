@@ -1,4 +1,7 @@
-# Essays
+# Computing Culture  
+## Essays on Constraint-Based PC Game Restoration
+
+[![DOI](https://zenodo.org/badge/1127941088.svg)](https://doi.org/10.5281/zenodo.18162766)
 
 Essays on computing history and user experience. I am basically saying that old games were designed around specific hardware and human habits, and when you change those, the game changes - regardless of whether it technically executes.
 
@@ -10,20 +13,14 @@ Essays on computing history and user experience. I am basically saying that old 
 - [Table: DirectX / VPU and GPU Compiled Reference](cards-in-lab.md)
 - [Table: DirectX / OS Compiled Reference](dx-os-reference-table.md)
 
-## License
-
-© 2026 computing-culture.
-
-All documents in this repository are licensed under  
-Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 (CC BY-NC-ND 4.0).
-
-You may link to and quote from these essays with attribution.  
-Redistribution, modification, or commercial use requires permission.
-
-For further permissions or inquiries, please open an issue in this repository.
-
 ## Citation
 
-Computing Culture. 
-Computing Culture Essays, January 2026.
-https://github.com/computing-culture/essays
+If you wish to cite this collection, please use the DOI above.  
+
+## License
+
+This work is licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)**.
+
+Versioned releases are archived via Zenodo. For further permissions or inquiries, please open an issue in this repository.
+
+© 2026 Computing Culture. All rights reserved.
