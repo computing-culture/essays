@@ -91,5 +91,5 @@ Later computers can still honour Unreal’s intended interactions if they preser
 ## Citation
 
 Computing Culture. *Worked Example: Unreal (1998)*.  
-Computing Culture Essays, 2026.  
+Computing Culture Essays, January 2026. 
 https://github.com/computing-culture/essays
