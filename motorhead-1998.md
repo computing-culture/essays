@@ -8,6 +8,8 @@ This worked example starts with the game itself and then explains how and why it
 
 The gameplay focuses on very fast driving and constant player input. The player is never passive. You cannot point the car once and relax. Instead, you must keep giving steering input every moment.
 
+The game’s organised online community was largely European in character. Digital Illusions, the Swedish studio behind *Motorhead*, appears to have attracted early local interest, and one team was commonly identified as Swedish. Other teams were typically European, often dominated by British players, though they were not exclusively national in composition.
+
 ## 1. Expected Interaction (How the Game Feels to Play)
 
 *Motorhead* uses a very short control loop:
@@ -148,3 +150,7 @@ To understand or preserve *Motorhead*, it is not enough to make it run. It also 
 Computing Culture. *Worked Example: Motorhead (1998)*.
 Computing Culture Essays, January 2026.
 [https://github.com/computing-culture/essays](https://github.com/computing-culture/essays)
+
+
+Revision note (January 2026):
+This essay has been revised to clarify historical context around PC input timing, display assumptions, hardware performance, and the scale of the game’s organised online community during its active multiplayer period. These revisions refine the analysis but do not alter the core argument.
