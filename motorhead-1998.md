@@ -156,12 +156,5 @@ Computing Culture Essays, January 2026.
 [https://github.com/computing-culture/essays](https://github.com/computing-culture/essays)
 
 
-## Citation
-
-Computing Culture. *Worked Example: Motorhead (1998)*.
-Computing Culture Essays, January 2026.
-[https://github.com/computing-culture/essays](https://github.com/computing-culture/essays)
-
-
 Revision note (January 2026):
 This essay has been revised to clarify historical context around PC input timing, display assumptions, hardware performance, and the scale of the game’s organised online community during its active multiplayer period. These revisions refine the analysis but do not alter the core argument.
