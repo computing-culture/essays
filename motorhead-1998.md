@@ -10,8 +10,6 @@ The gameplay focuses on very fast driving and constant player input. The player 
 
 The game’s organised online community was largely European in character. Digital Illusions, the Swedish studio behind *Motorhead*, appears to have attracted early local interest, and one team was commonly identified as Swedish. Other teams were typically European, often dominated by British players, though they were not exclusively national in composition.
 
-Archival material indicates a sustained league structure with at least eleven teams, each comprising five to ten players, alongside additional informal competitions. Competitive play was supported over multiple years, during which Digital Illusions released patches that unlocked additional vehicles and refreshed multiplayer engagement.
-
 ## 1. Expected Interaction (How the Game Feels to Play)
 
 *Motorhead* uses a very short control loop:
@@ -62,9 +60,6 @@ Although LCD monitors were rare and expensive at the time, they already existed 
 
 ## 3. Graphics, Sound, and Timing
 
-Graphics: DirectDraw/Glide/Direct3D  
-Audio: CD-quality audio  
-
 *Motorhead* uses DirectX to manage input devices, sound, screen setup, and timing. This lets the game focus on gameplay instead of operating‑system details.
 
 Software rendering was the default option. The game could run well even without a 3D graphics card. If available, it could also use Direct3D or 3Dfx Glide. These options mainly changed how fast the game ran.
@@ -109,7 +104,9 @@ Late‑1990s PCs typically used PS/2 keyboards, which are interrupt‑driven. Ke
 
 ## 5. Did Such a PC Really Exist?
 
-Yes — and more importantly, these were not hypothetical or representative machines. They were lived PCs that changed over time.
+That is, did there exist a class of upgradeable desktop PCs, used by players over several years, whose changing performance characteristics directly affected *Motorhead*’s controls, physics, and competitive balance?
+
+Yes — and more importantly, these were not hypothetical or representative machines. They were lived PCs that changed over time. Upgradeable desktop PCs and fixed-hardware platforms worked very differently. Fixed-hardware platforms such as laptops and consoles constrained performance and frame rate, while desktop PCs did not.
 
 The online community around *Motorhead* existed across several generations of PC graphics technology, roughly spanning DirectX 5 through DirectX 8. During this period, PC hardware was not static. Players upgraded components incrementally, responding to new graphics cards, new drivers, and new APIs as they appeared.
 
@@ -120,7 +117,7 @@ For PC players, part of the experience came from a clear analogy between PC hard
 Players improved performance by:
 
 * upgrading graphics cards
-* installing new drivers and DirectX versions
+* installing new drivers
 * adjusting graphics settings
 * pushing frame rates higher
 
@@ -130,11 +127,13 @@ Competitive players quickly learned that higher frame rates mattered. As hardwar
 
 Eventually, PCs outgrew *Motorhead*. As newer games appeared that better matched emerging hardware capabilities, and as extreme frame rates became common rather than exceptional, *Motorhead* was sidelined. The same arms race that sustained the game for several years also ensured that it would not last indefinitely.
 
+The PlayStation version of *Motorhead* was released after the PC version, meaning that early competitive norms were established by PC players rather than console owners. These early participants typically played on AT/ATX desktop PCs, where hardware tuning and performance optimisation were part of regular practice. Keyboard players were a minority, as effective control required a very light and precise touch, but skilled keyboard users were influential and visible within the community. As a result, competitive benchmarks were set by desktop PC and keyboard-based play, shaping expectations that later entrants were expected to meet.
+
 ## 6. Did It Matter for Long Enough?
 
 Yes, but only for a limited time — and that time mattered.
 
-When *Motorhead* was released, most players did not yet have fast 3D graphics cards. Software rendering worked well, and very high frame rates were rare.
+When *Motorhead* was released, many players did not yet have hardware-accelerated 3D graphics cards capable of sustaining high and stable frame rates. Software rendering worked well, and very high frame rates were rare.
 
 As PCs improved, higher frame rates became possible, but still required effort and money. This created a period when:
 
@@ -142,13 +141,20 @@ As PCs improved, higher frame rates became possible, but still required effort a
 * hardware tuning felt rewarding
 * faster performance felt earned
 
-Eventually, hardware became fast enough that extreme performance stopped being special. At the same time, the game’s frame‑rate sensitivity became more noticeable and harder to manage.
+Eventually, hardware became fast enough that extreme performance stopped being special. At the same time, the game’s frame‑rate sensitivity became more noticeable and harder for the online community to manage, as fixed-hardware platforms and changing player demographics reduced the shared performance envelope that competitive play depended on.
 
 ## Closing Summary
 
 *Motorhead* shows that some PC games mattered because they existed in a specific moment in time. They were designed for machines that could be improved, within the practical limits of contemporary hardware.
 
 To understand or preserve *Motorhead*, it is not enough to make it run. It also matters how fast it runs, and how hard it is to reach that speed. The game lost its special appeal when hardware improvements stopped feeling meaningful, which is why simply running it on modern systems cannot fully recreate the original PC experience.
+
+## Citation
+
+Computing Culture. *Worked Example: Motorhead (1998)*.
+Computing Culture Essays, January 2026.
+[https://github.com/computing-culture/essays](https://github.com/computing-culture/essays)
+
 
 ## Citation
 
