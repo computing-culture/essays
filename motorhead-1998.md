@@ -10,6 +10,8 @@ The gameplay focuses on very fast driving and constant player input. The player 
 
 The game’s organised online community was largely European in character. Digital Illusions, the Swedish studio behind *Motorhead*, appears to have attracted early local interest, and one team was commonly identified as Swedish. Other teams were typically European, often dominated by British players, though they were not exclusively national in composition.
 
+Archival material indicates a sustained league structure with at least eleven teams, each comprising five to ten players, alongside additional informal competitions. Competitive play was supported over multiple years, during which Digital Illusions released patches that unlocked additional vehicles for multiplayer engagement. Archived pages and participant accounts show that competitive and social play continued into the early 2000s.
+
 ## 1. Expected Interaction (How the Game Feels to Play)
 
 *Motorhead* uses a very short control loop:
