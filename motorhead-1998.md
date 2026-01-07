@@ -21,9 +21,11 @@ Steering does not build up or stay locked in. Every frame:
 * steering is applied briefly
 * the car starts to straighten again
 
-To go around a corner, the player must keep steering again and again. Turning is not one action, but many small actions in a row.
+To go around a corner, the player must keep steering again and again. Turning is not one action, but many small actions in a row. The car accelerates very quickly, but its direction keeps changing. This lets the game work at extreme speeds, but it also means timing matters a lot.
 
-The car accelerates very quickly, but its direction keeps changing. This lets the game work at extreme speeds, but it also means timing matters a lot.
+In the absence of formal ranking systems, observed behaviour and inferred machine state distinguished between novice and experienced players. Questions such as “ASL?”, “FPS?”, and “ICQ?” were common in the lobby between games, serving to establish social context, machine capability, and continuity beyond individual sessions.  
+
+Network lag was also discussed, but was generally understood to affect situational awareness rather than competitive outcomes.  
 
 ## 2. Input and Display Assumptions
 
@@ -108,11 +110,11 @@ That is, did there exist a class of upgradeable desktop PCs, used by players ove
 
 Yes — and more importantly, these were not hypothetical or representative machines. They were lived PCs that changed over time. Upgradeable desktop PCs and fixed-hardware platforms worked very differently. Fixed-hardware platforms such as laptops and consoles constrained performance and frame rate, while desktop PCs did not.
 
-The online community around *Motorhead* existed across several generations of PC graphics technology, roughly spanning DirectX 5 through DirectX 8. During this period, PC hardware was not static. Players upgraded components incrementally, responding to new graphics cards, new drivers, and new APIs as they appeared.
+The online community around Motorhead existed across several generations of PC graphics technology, roughly spanning DirectX 5 through DirectX 8. One player-maintained site captured by the Internet Archive in December 2000 notes that “the first teams appeared about June 1998,” and that “of the original six teams, only one remains.” The same snapshot lists eleven teams enrolled in a contemporary league. In practice, this reflected player migration between teams rather than wholesale departure from the game.
 
-This period coincided with an active PC graphics arms race.
+During this period, PC hardware was not static. Players upgraded components incrementally, responding to new graphics cards, new drivers, and new APIs as they appeared.
 
-For PC players, part of the experience came from a clear analogy between PC hardware and a car engine. Just as a real race car can be tuned to become faster, a PC could be tuned and upgraded to make *Motorhead* run faster.
+This period coincided with an active PC graphics arms race. For PC players, part of the experience came from a clear analogy between PC hardware and a car engine. Just as a real race car can be tuned to become faster, a PC could be tuned and upgraded to make *Motorhead* run faster.
 
 Players improved performance by:
 
