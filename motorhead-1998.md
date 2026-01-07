@@ -1,153 +1,150 @@
 # Worked Example: Motorhead (1998)
 
-## Starting point: the software
+This worked example starts with the game itself and then explains how and why it behaved the way players experienced it. The goal is to understand *Motorhead* as it was actually played on PCs at the time, not just how it runs today.
 
-This worked example follows the same **outward-from-software framework** used in the earlier *Unreal* analysis. The method begins with the software itself—its control model and timing assumptions—and then works outward to examine input devices, graphics and audio APIs, hardware substitutions, real historical machines, and long-term usability.
+## Software Anchor
 
-The aim is not to judge the game by modern standards, but to identify the interaction contract the software establishes and to understand how that contract holds, bends, or breaks as surrounding technology changes.
+*Motorhead* (1998) is best understood not as a game that changed the whole racing genre, but as a very polished arcade racing game with a strong PC community. It supported organised online multiplayer, including ISP‑hosted servers and stable teams. Archived pages and player accounts show that competitive and social play continued into the early 2000s.
 
-*Motorhead* (1998) is a PC racing game built around very fast driving and constant steering input. The game expects the player to stay involved every moment. Control is not about setting a direction and holding it. Instead, the player must keep telling the car what to do, frame by frame.
+The gameplay focuses on very fast driving and constant player input. The player is never passive. You cannot point the car once and relax. Instead, you must keep giving steering input every moment.
 
-This essay starts with the software itself and works outward to explain how and why the game behaved the way players experienced it.
+## 1. Expected Interaction (How the Game Feels to Play)
 
-## 1. What kind of interaction does this software expect from the user?
+*Motorhead* uses a very short control loop:
 
-*Motorhead* uses a short control loop:
+see → steer → see → steer
 
-**see → steer → see → steer**
-
-Steering does not build up over time. Each frame:
+Steering does not build up or stay locked in. Every frame:
 
 * steering is applied briefly
-* the car starts to return to straight ahead
+* the car starts to straighten again
 
-To turn, the player must keep steering again and again. A corner is not one action, but many small actions in a row.
+To go around a corner, the player must keep steering again and again. Turning is not one action, but many small actions in a row.
 
-Speed stays high. Direction does not. This makes the game playable at extreme speeds, but it also makes timing very important.
+The car accelerates very quickly, but its direction keeps changing. This lets the game work at extreme speeds, but it also means timing matters a lot.
 
-## 2. What input devices and display assumptions support that interaction?
+## 2. Input and Display Assumptions
 
-### A shared control signal
+### One shared control idea
 
-Players used keyboards, joysticks, and wheels. Even though these devices are different, the game treats them in the same basic way.
+Players used keyboards, joysticks, and steering wheels. Even though these devices are different, the game treats them in the same basic way.
 
-All steering becomes a **per-frame steering signal**:
+All steering becomes a per‑frame steering signal:
 
-* sampled once per frame
+* read once per frame
 * applied briefly
-* not saved as long-term state
+* not stored for later
 
 ### Keyboard
 
-On a keyboard, steering is on or off each frame.
+With a keyboard, steering is either on or off each frame.
 
 * Holding a key = steering every frame
-* Tapping a key = steering on some frames, not others
+* Tapping a key = steering on some frames
 
-The amount of turning depends on how often the key is pressed. Steering strength comes from **frequency, timing, and position**. With a keyboard, this is controlled through how often and when inputs occur; with joysticks and wheels, position also affects the size of each steering impulse.
+How much the car turns depends on how often and when the key is pressed. Steering strength comes from timing and rhythm, not from holding a direction.
 
 ### Joysticks and wheels
 
-Joysticks and wheels give a range of values, but the game still samples them once per frame. Because steering fades every frame, even analog input becomes a stream of short steering pushes.
+Joysticks and wheels give a range of values, but the game still reads them once per frame. Because steering fades each frame, even a steady input becomes a series of short pushes.
 
-Different devices encode steering differently, but the game reads them all as repeated impulses.
+Different devices send different signals, but the game treats them all as repeated steering impulses.
 
-## 3. What graphics and audio APIs shape timing, precision, and feedback?
+### Screens
 
-*Motorhead* uses DirectX to handle input devices, sound, screen setup, and timing, so the game does not have to manage these operating system details itself.
+*Motorhead* was advertised as supporting full 32‑bit colour 3D graphics using software rendering, without needing special 3D hardware. This was unusual at a time when many games focused on 16‑bit 3Dfx Glide graphics designed for CRT monitors. *Motorhead* also supported Glide, so this choice was not about old technology, but about flexibility.
 
-### Software rendering as baseline
+Although LCD monitors were rare and expensive at the time, they already existed in professional studios. *Motorhead* was designed in a way that did not depend heavily on CRT‑only tricks, which meant the graphics were not tightly dependent on the specific display hardware the game was sold alongside.
 
-The game does **not** require a 3D accelerator. Its normal graphics mode is a **software renderer** that uses DirectDraw to show images on screen. This was the expected way to play for many users in 1998.
+## 3. Graphics, Sound, and Timing
 
-Because of this:
+*Motorhead* uses DirectX to manage input devices, sound, screen setup, and timing. This lets the game focus on gameplay instead of operating‑system details.
 
-* frame rate depends on CPU speed
-* physics and input timing depend on frame rate
+Software rendering was the default option. The game could run well even without a 3D graphics card. If available, it could also use Direct3D or 3Dfx Glide. These options mainly changed how fast the game ran.
 
-### Optional hardware acceleration
+Because input and physics update every frame, frame rate matters. Faster hardware means the game samples input more often and updates physics more often.
 
-If available, the game can use:
+The game also uses high‑energy CD music. Because the music plays directly from the disc, it does not slow the game down. Sound effects add atmosphere but do not affect gameplay decisions.
 
-* Direct3D
-* 3dfx Glide
+## 4. Anachronisms to Consider
 
-These options change frame rate, which in turn changes how often input is sampled and how often physics updates occur. As a result, they do affect control behavior, even though the input model itself remains the same.
+Some modern changes do not break *Motorhead*’s original design.
 
-## 4. Where do modern substitutions introduce hidden changes or anachronisms?
+* Using an LCD screen does not break the game. The visuals were designed for full colour and do not rely on CRT blur or colour tricks.
+* Higher screen resolutions and higher colour depth also do not break the experience. They fit the game’s visual goals.
 
-*Motorhead* shows **temporal fragility**. This means the game’s behavior changes when frame rate changes.
+Other changes *do* matter.
 
-At about **30 FPS**:
+### Frame rate and timing
 
-* collisions slow the car
-* scraping walls costs speed
+*Motorhead* is frame-rate sensitive, which means its behaviour changes when it runs much faster than it did in the past.
 
-Above **100 FPS**:
+At around 30 frames per second (FPS):
+
+* hitting walls slows the car
+* scraping barriers costs speed
+
+Above 100 FPS:
 
 * collisions are split into many small steps
-* cars slide along barriers
+* cars slide along walls
 * speed loss is much lower
 
-This is not just visual. The physics itself behaves differently.
+In the late 1990s, reaching very high frame rates was difficult and expensive. This meant the behaviour stayed within expected limits. Today, very high frame rates are easy, which can change how the game feels.
 
-## 5. Did a real machine with these characteristics exist at the time?
+### Input timing (pushed vs polled)
 
-For many players, part of the fun came from a clear analogy between **PC hardware and a car engine**.
+The game reads steering once per frame. What matters is whether a key is seen as pressed at the exact moment input is sampled.
 
-Just as a **combustion engine** can be tuned to make a real race car faster, a PC could be tuned to make *Motorhead* run faster.
+Late‑1990s PCs typically used PS/2 keyboards, which are interrupt‑driven. Key presses are delivered immediately, so short taps line up closely with frame boundaries. This fits well with *Motorhead*’s per‑frame steering model.
 
-Players tuned the real-world system rather than the virtual car:
+*Motorhead* was designed around an input stack where keyboards and joysticks were sampled with minimal temporal quantisation. Moving both devices to USB introduces a shared polling layer that reduces the temporal resolution of steering input, subtly changing control feel even when frame rate increases.
 
-* adjusting the graphics subsystem
+## 5. Did Such a PC Really Exist?
+
+Yes — and more importantly, these were not hypothetical or representative machines. They were lived PCs that changed over time.
+
+The online community around *Motorhead* existed across several generations of PC graphics technology, roughly spanning DirectX 5 through DirectX 8. During this period, PC hardware was not static. Players upgraded components incrementally, responding to new graphics cards, new drivers, and new APIs as they appeared.
+
+This period coincided with an active PC graphics arms race.
+
+For PC players, part of the experience came from a clear analogy between PC hardware and a car engine. Just as a real race car can be tuned to become faster, a PC could be tuned and upgraded to make *Motorhead* run faster.
+
+Players improved performance by:
+
+* upgrading graphics cards
+* installing new drivers and DirectX versions
+* adjusting graphics settings
 * pushing frame rates higher
-* changing in-game physical limits where possible
 
-This created a different kind of immersion. Performance gains came from understanding and modifying the machine running the game, not just from driving skill. Speed, risk, and reward were experienced through hardware tuning rather than physical danger, turning the PC itself into part of the racing fantasy.
+These changes were not abstract benchmarks. They were lived upgrades that altered how the game felt to play. Steering responsiveness, collision behaviour, and competitive viability all shifted as machines improved.
 
-Competitive players quickly learned that high frame rates mattered. More than 100 FPS became normal.
+Competitive players quickly learned that higher frame rates mattered. As hardware improved, teams increasingly standardised around faster configurations, and leagues gradually became dominated by players using 3Dfx hardware acceleration. Software-rendered and console-based play became less competitive not because they were invalid, but because the performance race had moved on.
 
-Higher frame rates:
+Eventually, PCs outgrew *Motorhead*. As newer games appeared that better matched emerging hardware capabilities, and as extreme frame rates became common rather than exceptional, *Motorhead* was sidelined. The same arms race that sustained the game for several years also ensured that it would not last indefinitely.
 
-* sample input more often
-* update physics more often
-* reduce speed loss on barriers
+## 6. Did It Matter for Long Enough?
 
-Players upgraded CPUs and graphics cards to reach this range. This changed how the game played.
+Yes, but only for a limited time — and that time mattered.
 
-## 6. Did this type of system remain usable and relevant long enough to matter?
+When *Motorhead* was released, most players did not yet have fast 3D graphics cards. Software rendering worked well, and very high frame rates were rare.
 
-Yes—but only for a **bounded window of time**, and that window mattered.
+As PCs improved, higher frame rates became possible, but still required effort and money. This created a period when:
 
-When *Motorhead* was developed, the performance gap between software rendering and hardware acceleration was relatively small. Many players did not yet own 3D accelerators, and the software renderer delivered a competitive and visually impressive experience. At that point, frame rates above 100 FPS were rare and largely unattainable.
+* the game was active and competitive
+* hardware tuning felt rewarding
+* faster performance felt earned
 
-At release, the game was new enough to attract players, while hardware was still slow enough that very high frame rates felt exceptional. As PCs improved, reaching and sustaining >100 FPS became achievable but still required effort, tuning, and investment. This created a period in which:
+Eventually, hardware became fast enough that extreme performance stopped being special. At the same time, the game’s frame‑rate sensitivity became more noticeable and harder to manage.
 
-* the game was socially active and competitive
-* hardware tuning felt meaningful
-* pushing performance higher felt like an accomplishment
+## Closing Summary
 
-This window supported a distinctive PC culture around the game. It did not translate in the same way to console versions, where capped frame rates and fixed hardware removed both the performance gradient and the incentive to tune systems. As a result, console versions struggled to generate the same kind of competitive or social impact.
+*Motorhead* shows that some PC games mattered because they existed in a specific moment in time. They were designed for machines that could be improved, within the practical limits of contemporary hardware.
 
-Eventually, the window closed. As faster hardware became common, extreme frame rates stopped feeling special and instead became expected. At the same time, the game’s temporal fragility became more pronounced, making competitive play increasingly distorted rather than simply faster.
-
-In this sense, *Motorhead* mattered not because it scaled indefinitely, but because it occupied a **specific historical moment**: long enough to shape player practice and competitive culture, but not long enough to fully adapt to the hardware that followed.
-
-## Closing synthesis
-
-*Motorhead* was designed for a limited performance range that made sense at the time. Within that range, its reassertive control model and frame-synchronous physics produced a fast, demanding, and expressive racing experience.
-
-Later hardware made much higher frame rates possible. This shifted the game into different physics regimes, where collision response, friction, and speed preservation behaved differently. These changes were not fully predictable at the time of development, especially as GPUs and CPUs capable of sustaining extreme frame rates emerged after release.
-
-As a result, different computers came to produce meaningfully different versions of the game. Compatibility alone was not enough to preserve the experience; timing and update frequency mattered just as much.
-
-*Motorhead* demonstrates that historically meaningful PC gaming often existed **after factory configurations required tuning**, and **before factory configurations made optimisation trivial**. There was a narrow window in which hardware tuning was difficult enough to matter, yet not so easy that it dissolved the game’s interaction model.
-
-Understanding or preserving *Motorhead* therefore requires attention not only to whether the software runs, but to the historically situated performance envelopes within which its interaction model was formed and sustained.
-
+To understand or preserve *Motorhead*, it is not enough to make it run. It also matters how fast it runs, and how hard it is to reach that speed. The game lost its special appeal when hardware improvements stopped feeling meaningful, which is why simply running it on modern systems cannot fully recreate the original PC experience.
 
 ## Citation
 
-Computing Culture. *Worked Example: Motorhead (1998)*.  
-Computing Culture Essays, January 2026. 
-https://github.com/computing-culture/essays
+Computing Culture. *Worked Example: Motorhead (1998)*.
+Computing Culture Essays, January 2026.
+[https://github.com/computing-culture/essays](https://github.com/computing-culture/essays)
