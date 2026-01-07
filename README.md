@@ -12,6 +12,7 @@ The essays are written to be readable by technically curious players and tinkere
 - [Interaction Under Constraint: Retro Systems as Evidence in Human–Computer Interaction](three-pillars.md)
 - [Worked Example: Unreal (1998)](unreal-1998.md)
 - [Worked Example: Motorhead (1998)](motorhead-1998.md)
+- [Worked Example: Strike Force TC (1999)](strike-force-1999.md)
 - [There Is No Such Thing as an "Era-Pure" Home Gaming PC](era-pure-pc.md)
 - [Why games fade, and how to restore them](proposal.md)
 - [Table: DirectX / VPU and GPU Compiled Reference](cards-in-lab.md)
