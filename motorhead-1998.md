@@ -62,6 +62,9 @@ Although LCD monitors were rare and expensive at the time, they already existed 
 
 ## 3. Graphics, Sound, and Timing
 
+Graphics: DirectDraw/Glide/Direct3D  
+Audio: CD-quality audio  
+
 *Motorhead* uses DirectX to manage input devices, sound, screen setup, and timing. This lets the game focus on gameplay instead of operating‑system details.
 
 Software rendering was the default option. The game could run well even without a 3D graphics card. If available, it could also use Direct3D or 3Dfx Glide. These options mainly changed how fast the game ran.
