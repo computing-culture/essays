@@ -3,7 +3,11 @@
 
 [![DOI](https://zenodo.org/badge/1127941088.svg)](https://doi.org/10.5281/zenodo.18162766)
 
-Essays on computing history and user experience. I am basically saying that old games were designed around specific hardware and human habits, and when you change those, the game changes - regardless of whether it technically executes.
+Past games were designed around specific hardware and human habits, and when those constraints change, the game itself changes — even if the software still executes.  
+
+This collection examines that idea historically. It explores how hardware, software, and human practice intersect in computing history, and proposes constraint-based analysis as a methodological framework for digital preservation and historical understanding.  
+
+The essays are written to be readable by technically curious players and tinkerers, while also offering a framework historians and preservationists can work with.
 
 - [Interaction Under Constraint: Retro Systems as Evidence in Human–Computer Interaction](three-pillars.md)
 - [Worked Example: Unreal (1998)](unreal-1998.md)
