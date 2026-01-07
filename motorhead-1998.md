@@ -1,6 +1,6 @@
 # Worked Example: Motorhead (1998)
 
-This worked example starts with the game itself and then explains how and why it behaved the way players experienced it. The goal is to understand *Motorhead* as it was actually played on PCs at the time, not just how it runs today.
+This worked example starts with the game itself and then explains how and why it behaved the way players experienced it. The goal is to understand *Motorhead* as it was actually played on PCs at the time, not just how it runs today. This analysis draws on the author’s experience as a participant during the middle and late periods of *Motorhead*’s PC competitive scene, treating that experience as testimony rather than authority.
 
 ## Software Anchor
 
