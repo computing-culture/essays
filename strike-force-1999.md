@@ -1,6 +1,6 @@
 ## Worked Example: Strike Force TC (1999)
 
-To show again how the structure works in practice, this essay walks through an Unreal Total Conversion project using the reconstruction method.
+To show again how the structure works in practice, this essay walks through an Unreal Total Conversion project using the reconstruction method. This time the method reveals a hidden assumption about software history: that a system enters the world through a single discrete launch. Strike Force TC is the stress test because it was a process of incremental releases over four years. Here, the method meets a basic limit: there was never just one version of the game.
 
 ### 1. Software Anchor
 
@@ -68,56 +68,45 @@ Microsoft’s later Direct3D APIs are backwards compatible with DX6, but there i
 
 These changes may alter difficulty, pacing, spatial awareness, and immersion by changing how the player moves, listens, and predicts space.
 
-So what was realistic in 1998?
+So what was realistic in 1999?
 
-The actual most efficient code path would be 3Dfx Glide. And any 3Dfx card of the era lacks bandwidth to properly drive 1024×768×32 on a 14” LCD, which explains why *Unreal* more often paired 800×600×16 on 15” CRT.
-
-The next most efficient code path would be DX5 drivers on DX5 runtime, which is only possible on Win95 / Win98 or Windows NT 4.0. Driver requirements match the Nvidia TNT (TNT2 requires DX6 runtime).
+The efficient glide path now terminated with 3Dfx Voodoo 3, which was marketed as providing a deeper 1024×768×32 display signal. And, the next most efficient code path would be DX6 drivers on DX6 runtime which is achievable on Windows 95 through Windows 2000 and could be powered by NVidia TNT2 Ultra.
 
 ### 6. Did Such a Machine Exist?
 
-*Unreal* was rarely bundled with complete OEM PCs, but was commonly used as a showcase title in 3Dfx graphics card bundles. This positioned *Unreal* as the demonstrator of 3Dfx’s interactive media capabilities.
+*Strike Force TC* was an open source project targeting *Unreal Tournament* gamers, so any target machines were almost certainly customised.
 
-**Plausible lower-end 1998 gamer configuration:**
+**Plausible lower-end 1999 gamer configuration:**
 
-* 3Dfx Voodoo 4 MB (analog out)
+* 3Dfx Banshee 16 MB (analog out)
 * Microsoft Intellimouse
 * 15” CRT (640×480×16 analog in)
 * Ensoniq AudioPCI
 
-This configuration was buildable, usable, and matched *Unreal*’s target audience.
+This configuration was buildable, usable, and matched *Unreal Tournament*’s target audience.
 
-**Plausible upper-end 1998 gamer configuration:**
+**Plausible upper-end 1999 gamer configuration:**
 
-* 3Dfx Banshee 16 MB (analog out)
-* Microsoft Intellimouse
-* 17” CRT (800×600×16 analog in)
-* Aureal Vortex
+* NVidia TNT2 Pro 32Mb (analog out)
+* Razor Boomslang gaming mouse
+* 17” CRT (800×600×32 analog in)
+* Aureal Vortex 2
 
-This configuration was buildable, usable, and matched *Unreal*’s target audience.
+This configuration was buildable, usable, and matched *Unreal Tournament*’s target audience.
 
-**Plausible alternative Direct3D configuration:**
-
-* Nvidia TNT 16 MB (analog out)
-* Microsoft Intellimouse
-* 12” LCD (800×600×32 analog in)
-* Aureal Vortex
-
-This configuration was less common but doable.
-
-And these system-level constraints expose a truth of 1998 and *Unreal*’s launch environment: the most powerful Direct3D cards lacked bandwidth to properly drive 1024×768×32 on a 14” LCD, which cements why *Unreal* more often appeared at 800×600×16 on 15” CRT.
+But these system-level constraints expose a challenge: Strike Force TC is released many time over four years during which new gamer machines changed substantially and home HCI morphed into LCD flat panels and USB polling an optical mouse - even Microsoft Windows changed.
 
 ### 7. Did It Last Long Enough to Matter?
 
 The HCI that *Unreal* was optimised for existed for almost a decade (1990–2000).
 
-The 1998 Unreal Engine was reused and expanded in many later games, and Strike Force TC is an example that pushed Unreal into a next generation featuring LCD displays, hardware T&L GPUs, and optical mice.
+The 1998 Unreal Engine was reused and expanded in many later games, and Strike Force TC (1999-2006) is one example that pushed Unreal beyond its anticipated HCI - into a new generation of gamer HCI featuring LCD screens, hardware T&L GPUs, and optical mice.
 
-This longevity meant that the interaction style *Unreal* assumed had time to be learned, practiced, and remembered irrespective of CPU, RAM, and disk drives.
+This longevity meant that multiple interaction styles are assumed, learned, practiced, and then applied where they are not anticipated.
 
-Later computers can still honour *Unreal*’s intended interactions if they preserve PS/2 ball-mouse inertial input, 4:3 analogue display characteristics, and frame-coupled spatial audio, even when CPU and RAM capacities far exceed original expectations.
+Later computers can still honour *Unreal*’s original intended interactions if they preserve PS/2 ball-mouse inertial input, 4:3 analogue display characteristics, and frame-coupled spatial audio, even when CPU and RAM capacities far exceed original expectations.
 
-By the mid-2000s, LCDs were common, and Strike Force was also no longer competitive. Even in 4:3, new screens quietly undermined the visual and perceptual assumptions Strike Force was built on. And, as my testimony suggests, elevating ball mouse characteristics over optical mouse characteristics might have been no longer socially acceptable.
+But by the mid-2000s, LCDs were common, and the underlying assumptions that Strike Force TC was designed for made it an anachronism. Even in 4:3, contemporary screens quietly undermined the visual and perceptual assumptions Strike Force was built on. And, as my testimony suggests, elevating ball mouse characteristics over optical mouse characteristics might have been no longer socially acceptable.
 
 ---
 
@@ -137,12 +126,12 @@ There was another layer to this encounter. I knew it was statistically unlikely 
 
 The attack unfolded as a planar sequence rather than a reactive scramble: one opponent eliminated through aimed fire, a second through a dual engagement, a third disrupted with a flash-bang and sprint. Once this sequence held, the remaining two were no longer independent threats. They were eliminated with confidence — and, unavoidably, humiliation.
 
-I later learned, by coincidence, that my brother had been present in the internet café where the opposing team played. It was from him—not from the match itself—that I learned the club decided to stop playing *Strike Force*. I, too, stopped playing shortly afterward—though not by choice. The optical mouse had arrived.
+I later learned, by coincidence, that my brother had been present in the internet café where the opposing team played. It was from him—not from the match itself—that I learned the club decided to stop playing *Strike Force*. I, too, stopped playing shortly afterward—though not by choice. 
 
-Following my own post-mortem analysis, I conclude that realism narrows what players are willing to accept. When something can’t be easily explained, it stops being impressive and starts being suspicious.
+Following my own post-mortem analysis, I conclude that realism narrows what players are willing to accept. When something can’t be easily explained, it stops being impressive and starts being suspicious. The optical mouse had arrived.  
 
 ### Citation
 
-Computing Culture. *Worked Example: Strike Force TC (1999).*
-Computing Culture Essays, January 2026.
+Computing Culture. *Worked Example: Strike Force TC (1999).*  
+Computing Culture Essays, January 2026.  
 [https://github.com/computing-culture/essays](https://github.com/computing-culture/essays)
