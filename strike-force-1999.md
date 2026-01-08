@@ -124,9 +124,9 @@ Like an ancient language, the ball mouse did not disappear because it failed —
 
 There was another layer to this encounter. I knew it was statistically unlikely that I would survive sustained fire from five players using conventional Strike Force movement. I also knew the constraints of the system: sprinting could penetrate individual positions, but at the cost of aim due to Strike Force’s exhaustion mechanic; exhaustion, in turn, demanded close-range rapid fire.
 
-The attack unfolded as a planar sequence rather than a reactive scramble: one opponent eliminated through aimed fire, a second through a dual engagement, a third disrupted with a flash-bang and sprint. Once this sequence held, the remaining two were no longer independent threats. They were eliminated with confidence — and, unavoidably, humiliation.
+The attack unfolded as a planar sequence rather than a reactive scramble: one opponent eliminated through aimed fire, a second through a duel engagement, a third disrupted with a flash-bang and sprint. Once this sequence held, the remaining two were no longer independent threats. They were eliminated with confidence — and, unavoidably, humiliation.
 
-I later learned, by coincidence, that my brother had been present in the internet café where the opposing team played. It was from him—not from the match itself—that I learned the club decided to stop playing *Strike Force*. I, too, stopped playing shortly afterward—though not by choice. 
+I later learned, by coincidence, that my brother had been present in the internet café where the opposing team played. It was from him, not from the match itself, that I learned the club decided to stop playing *Strike Force*. I, too, stopped playing shortly afterward — though not by choice.
 
 Following my own post-mortem analysis, I conclude that realism narrows what players are willing to accept. When something can’t be easily explained, it stops being impressive and starts being suspicious. The optical mouse had arrived.  
 
